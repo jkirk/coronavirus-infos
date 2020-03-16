@@ -7,6 +7,8 @@
 # License:       This file is licensed under the MIT
 ################################################################################
 
+SCRIPT_PATH="$(dirname $(realpath $0))"
+cd "${SCRIPT_PATH}"
 wget -q https://www.sozialministerium.at/Informationen-zum-Coronavirus/Coronavirus---Haeufig-gestellte-Fragen.html -O Coronavirus---Haeufig-gestellte-Fragen.html
 STAND="Stand: $(sed -n -e "0,/(Stand:.*)/ s/.*(Stand: \(.*\))/\1/p" Coronavirus---Haeufig-gestellte-Fragen.html)"
 git add Coronavirus---Haeufig-gestellte-Fragen.html
