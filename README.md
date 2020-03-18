@@ -15,8 +15,8 @@ Um ein wenig den Überblick zu behalten, habe ich das 'update-coronavirus-infos'
 
 ## Wie funktioniert es?
 
-Das Skript lädt die beiden Seiten herunter und fügt bei Änderung einer der Seiten der [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung) hinzu.
-Damit ist man in der Lage den Veränderungsverlauf in der Versionsgeschichte zu verfolgen.
+Das Skript lädt die beiden Seiten herunter und fügt Änderungen dieser Seiten der [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung) hinzu.
+Damit ist man in der Lage den Veränderungsverlauf in der [Versionsgeschichte](https://github.com/jkirk/coronavirus-infos/commits/master) zu verfolgen.
 
 Das Skript kann lokal automatisch bzw regelmäßig ausgeführt werden.
 
